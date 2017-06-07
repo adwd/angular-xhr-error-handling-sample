@@ -17,6 +17,7 @@ export class AppComponent {
 
   getMessage() {
     this.fooService.getMessage().subscribe(m => console.log(m));
+    // throw new Error('oi!!!');
   }
 
   get400() {
